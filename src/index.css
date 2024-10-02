@@ -9,8 +9,7 @@ body{
    
 }
 .bg-center{
-  background-image: url("/images/bg-image.jpg");
-
+  background-image: url("/images/bgone.jpg");
   min-height:130vh;
   background-position: center;
   background-size: cover;
@@ -33,7 +32,7 @@ body{
   }
 
   .background-two{
-   background-image: url("/images/bg2-image.jpg");
+   background-image: url("/images/.bgtwo.jpg");
   min-height:100vh;
   background-position: center;
   background-size: cover;

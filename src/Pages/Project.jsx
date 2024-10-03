@@ -40,8 +40,8 @@ const Project = () => {
         <div className='grid lg:grid-cols-2 gap-7 p-10'>
         {myProjects.map((myProject) => (
             <div key={myProject.id} data-aos="fade-up">
-            <img src={myProject.image} alt={myProject.title} style={{ height: "350px" }} />
-            <h2 className='text-white lg:text-2xl font-serif mt-3'>{myProject.title}</h2>
+            <img src={myProject.image} alt={myProject.title} style={{ height: "350px", objectFit:'contain' }} />
+            <h2 className='text-white lg:text-2xl font-serif lg:mt-3 sm:mt-0'>{myProject.title}</h2>
             <h2 className='text-white lg:text-2xl font-serif mb-3'>{myProject.description}</h2>
             
             <a href={myProject.liveLink} target="_blank" rel="noopener noreferrer">

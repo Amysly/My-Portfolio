@@ -8,7 +8,7 @@ const About = () => {
           lg:text-4xl text-center font-serif lg:mt-20">ABOUT ME</h2>
           <div className="border border-yellow-400 w-32 mx-auto mt-4 mb-5"></div>
           <div className="grid lg:grid-cols-2 gap-8 sm:p-2 md:p-10 lg:p-20">
-            <div className="sm:mt-2 lg:mt-8 mb-8 lg:ml-20 sm:justify-center"  data-aos="fade-down">
+            <div className="sm:mt-2 lg:mt-8 mb-8 lg:ml-20 sm:mr-5 flex justify-center"  data-aos="fade-down">
             <img src="/images/amara.jpg" alt='amara' style={{ width: "80%" }}/> 
             </div>
             <div className="" data-aos="slide-left">

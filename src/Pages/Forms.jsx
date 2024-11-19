@@ -66,13 +66,14 @@ const Forms = () => {
                             </button>
                         </form>
                     </div>
+                    <div className="overflow-hidden">
                     <div className="" data-aos="slide-left">
                         <h3 className="text-yellow-400 text-3xl lg:text-4xl font-serif mb-5 mt-4">Contact Info</h3>
                         <p className="text-white font-serif mb-4 leading-8 lg:text-2xl">
                            
                         </p>
                         <div className="flex space-x-4">
-                        <div className="p-2 sm:p-4 border rounded-full w-12 h-12 sm:w-16 sm:h-16 flex items-center justify-center hover:bg-yellow-400">
+                        <div className="p-4 sm:p-4 border rounded-full w-20 h-12 sm:w-16 sm:h-16 flex items-center justify-center hover:bg-yellow-400">
                             <FaEnvelope className="text-white text-base sm:text-2xl"/>
                         </div>
                         <div>
@@ -91,7 +92,7 @@ const Forms = () => {
                     </div>
 
                     <div className="flex space-x-4 mt-8">
-                        <div className="p-2 sm:p-4 border rounded-full w-12 h-12 sm:w-16 sm:h-16 flex items-center justify-center hover:bg-yellow-400">
+                        <div className="p-2 sm:p-4 border rounded-full w-20 h-12 sm:w-16 sm:h-16 flex items-center justify-center hover:bg-yellow-400">
                             <FaLocationDot className="text-white text-base sm:text-2xl"/>
                         </div>
                         <div>
@@ -100,6 +101,7 @@ const Forms = () => {
                         </div>
                     </div>
 
+                    </div>
                     </div>
                 </div>
             </div>

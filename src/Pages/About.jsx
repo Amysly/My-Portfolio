@@ -3,6 +3,7 @@ import React from 'react';
 const About = () => {
     return (
       <div className="background-two">
+
         <div className="pt-4 px-4 background">
           <h2 className="col-span-full text-yellow-400 text-2xl sm:text-3xl 
           lg:text-4xl text-center font-serif lg:mt-20">ABOUT ME</h2>
@@ -11,6 +12,7 @@ const About = () => {
             <div className="sm:mt-2 lg:mt-8 mb-8 lg:ml-20 sm:mr-5 flex justify-center"  data-aos="fade-down">
             <img src="/images/amara.jpg" alt='amara' style={{ width: "80%" }}/> 
             </div>
+            <div className="overflow-hidden">
             <div className="" data-aos="slide-left">
               <h3 className="text-yellow-400 text-2xl lg:text-4xl font-serif mb-4 mt-5">Hi There! I'm Amarachi Obiegue
               </h3>
@@ -27,6 +29,7 @@ const About = () => {
                aiming to create clean, functional and user-friendly website.As i progress, i am excited to take on a 
                new challenge and grow as a developer.
               </p>
+            </div>
             </div>
           </div>
         </div>

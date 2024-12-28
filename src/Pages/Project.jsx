@@ -29,6 +29,14 @@ const myProjects = [
         liveLink: "https://jovial-cactus-77d66f.netlify.app/",
         codeLink: "https://github.com/Amysly/Amy-Kitchen"
     },
+    {
+        id: 4,
+        image: "/images/movieapp.jpg", 
+        title: "Movie website",
+        description: "Created with Html,Tailwind and React.js",
+        liveLink: "https://movieapp-amysly.netlify.app",
+        codeLink: "https://github.com/Amysly/movie_app"
+    }
 ]
 const Project = () => {
   return (

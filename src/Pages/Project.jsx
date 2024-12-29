@@ -32,7 +32,7 @@ const myProjects = [
     {
         id: 4,
         image: "/images/movieapp.jpg", 
-        title: "Movie website",
+        title: "Movie Search App",
         description: "Created with Html,Tailwind and React.js",
         liveLink: "https://movieapp-amysly.netlify.app",
         codeLink: "https://github.com/Amysly/movie_app"
